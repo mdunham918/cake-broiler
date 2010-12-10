@@ -1,6 +1,6 @@
 INSTALLATION
 
-clone to your cake/console folder which should replace the current templates folder.
+clone to your cake/console/templates folder which should replace the current skel and default folders.
 
 then just bake apps as normal.
 
