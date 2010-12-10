@@ -1,0 +1,113 @@
+
+/* Primary Styles - Author: */
+
+/* End Primary */
+
+/* Form Template CSS */
+label {
+	display: block;
+	padding: 6px 0px 3px 0px;
+}
+input[type=text], input[type=password], textarea {
+	width: 100%;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background: #EEE;
+	border: #008BB6 solid 1px;
+	padding: 3px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+input[type=button], input[type=submit] {
+	background: -webkit-gradient( linear, left bottom, left top, color-stop(0.2, #a7a7a7), color-stop(1, #808080) );
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 0 2px rgba(255, 255, 255, 0.3) inset, 0 1px 2px rgba(0, 0, 0, 0.29);
+	background: -moz-linear-gradient(center top, #a7a7a7 20%, #808080 100%) repeat scroll 0 0 transparent;
+	border: #818181 solid 1px;
+	color: white !important;
+	cursor: pointer;
+	display: inline-block;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 10px 0;
+	padding: 3px 13px;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+}
+input[type=button]:hover, input[type=submit]:hover {
+	background: -webkit-gradient( linear, left bottom, left top, color-stop(0.2, #b7b7b7), color-stop(1, #909090) );
+	background: -moz-linear-gradient(center top, #b7b7b7 20%, #909090 100%) repeat scroll 0 0 transparent;
+}
+input[type=button]:active, input[type=submit]:active {
+	background: -webkit-gradient( linear, left bottom, left top, color-stop(0.2, #707070), color-stop(1, #c7c7c7) );
+	background: -moz-linear-gradient(center top, #707070 20%, #c7c7c7 100%) repeat scroll 0 0 transparent;
+}
+/* End Form Stuff */
+
+/* template for some mobile stuff */
+
+ @media all and (orientation:portrait) {
+}
+ @media all and (orientation:landscape) {
+}
+ @media screen and (max-device-width: 480px) {
+/* html { -webkit-text-size-adjust:none; -ms-text-size-adjust:none; } */
+}
+
+/* End mobile template stuff */
+
+/* apply styles if the browser width shrinks below 400 */
+
+@media screen and (max-width: 400px) {
+}
+
+/* or if the height goes below 400 */
+
+@media screen and (max-height: 400px) {
+}
+ @media print {
+* {
+	background: transparent !important;
+	color: #444 !important;
+	text-shadow: none !important;
+}
+a, a:visited {
+	color: #444 !important;
+	text-decoration: underline;
+}
+a:after {
+	content: " (" attr(href) ")";
+}
+abbr:after {
+	content: " (" attr(title) ")";
+}
+.ir a:after {
+	content: "";
+}
+pre, blockquote {
+	border: 1px solid #999;
+	page-break-inside: avoid;
+}
+thead {
+	display: table-header-group;
+}
+tr, img {
+	page-break-inside: avoid;
+}
+ @page {
+margin: 0.5cm;
+}
+p, h2, h3 {
+	orphans: 3;
+	widows: 3;
+}
+h2, h3 {
+	page-break-after: avoid;
+}
+}

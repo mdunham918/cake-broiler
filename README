@@ -1,0 +1,7 @@
+INSTALLATION
+
+clone to your cake/console folder which should replace the current templates folder.
+
+then just bake apps as normal.
+
+utilizes html5boilerplate and a few useful plugins and behaviors.
